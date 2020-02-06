@@ -14,13 +14,13 @@ function getAnimals(){ //This function is in GLOBAL scope
 getAnimals();
 ```
 
-_Global Scope:_ There is only one global scope, If element is declared outside all functions or curly braces, it can be used anywhere in your code. In node js, global scope is different if you define a variable as global, module will be local to that module.
+**Global Scope:** There is only one global scope, If element is declared outside all functions or curly braces, it can be used anywhere in your code. In node js, global scope is different if you define a variable as global, module will be local to that module.
 
-_Local Scope:_ Variables that are usable only in a specific part of your code. there are two kinds of local scope:
+**Local Scope:** Variables that are usable only in a specific part of your code. there are two kinds of local scope:
 
-- _Function Scope:_ When you declare a variable in a function you can access this variable only within the function. Lives as long as your functions are called and executed.
+- **Function Scope:** When you declare a variable in a function you can access this variable only within the function. Lives as long as your functions are called and executed.
 
-- _Block Scope:_ If you use curly braces ( {} ) in a condition (if, switch) or a loop (for, while), only if you declare a variable with let and const this variables will lives as long as the condition or loop is finished
+- **Block Scope:** If you use curly braces ( {} ) in a condition (if, switch) or a loop (for, while), only if you declare a variable with let and const this variables will lives as long as the condition or loop is finished
 ```javascript
 var animal1 = 'tiger'; //This variable is on global scope, it doesn't matters if it's var, const or let
 
