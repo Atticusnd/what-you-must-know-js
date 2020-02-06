@@ -1,4 +1,4 @@
-# Everything that you must know about JS
+# Everything you must know about JS
 
 This content is created to help to understand and remember all concepts that are important in Javascript, I have several years working as programmer and 4 year working with JS and sometimes I forget some of this concepts because to be honest, sometimes we know how to use it but not how to explain it, this tries to help in those cases and even if you don't know this topics, don't worry I learned a lot when I wrote this, all information that you can read here is just a short summary, if you want go deeper check the sources that I used to create this.
 
