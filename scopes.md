@@ -2,7 +2,7 @@
 
 Is the accessibility of variables, functions, and objects in some particular part of your code during runtime. In other words, scope determines the visibility of variables and other resources in areas of your code, javascript has two types of scopes.
 
-```
+```javascript
 var animal1 = 'lion'; //This variable is in GLOBAL scope
 
 function getAnimals(){ //This function is in GLOBAL scope
@@ -21,7 +21,7 @@ _Local Scope:_ Variables that are usable only in a specific part of your code. t
 - _Function Scope:_ When you declare a variable in a function you can access this variable only within the function. Lives as long as your functions are called and executed.
 
 - _Block Scope:_ If you use curly braces ( {} ) in a condition (if, switch) or a loop (for, while), only if you declare a variable with let and const this variables will lives as long as the condition or loop is finished
-```
+```javascript
 var animal1 = 'tiger'; //This variable is on global scope, it doesn't matters if it's var, const or let
 
 function getAnimals(){ //This function is on global scope
