@@ -4,8 +4,6 @@ This content is created to help to understand and remember all concepts that are
 
 1. [Scopes and closures](scopes.md)
 
-
-
 ## Sources
 
 This is the general list of sources that I used, but in any section you see it has the specific sources list.
@@ -18,7 +16,10 @@ This is the general list of sources that I used, but in any section you see it h
 
 ## Disclaimer
 
-Some of the examples and definitions are taken from the sources and are not created by me because sometimes that are the clearest way to explain it.
+Some of the examples and definitions are taken from the sources, are not created by me because sometimes are the clearest way to explain it and it's not necessary to put extra information or change anything, so thank you for the original authors:
+
+[Hammad Ahmed](https://twitter.com/shammadahmed)
+[Zell Liew](https://twitter.com/zellwk)
 
 I'm not a native english speaker, so this notes are helping me to improve my technical vocabulary.
 
