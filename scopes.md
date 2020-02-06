@@ -34,9 +34,9 @@ function getAnimals(){ //This function is on global scope
         console.log(animal4); // zebra
     }//this curly brace defines the final of the block scope
 
-    console.log(animal1); // tiger
-    console.log(animal2); // elephant
-    console.log(animal3); // lion
+    console.log(animal1); // tiger is printed because animal1 is on the global scope
+    console.log(animal2); // elephant is printed because animal2 is part of the local scope
+    console.log(animal3); // lion is printed because animal3 is declared as var in the block scope, and this block scope is within in the local scope
     console.log(animal4); // ReferenceError: animal4 is not defined, if you use let, animal4 only lives in the block
     console.log(animal5); // ReferenceError: animal4 is not defined, if you use const, animal5 only lives in the block
 }   
@@ -61,4 +61,3 @@ function outerFunction () {
 ```
 ### Closures:
 
-Javascript allowed to declare functions within others, in a nested group of functions, the inner functions have access to the variables and other resources of their parent scope.
