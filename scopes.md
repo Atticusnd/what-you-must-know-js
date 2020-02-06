@@ -47,7 +47,18 @@ getAnimals();
 
 Javascript allowed to declare functions within others, in a nested group of functions, the inner functions have access to the variables and other resources of their parent scope.
 
+```javascript
+function outerFunction () {
+  const outer = `outer function!`
 
+  function innerFunction() {
+    const inner = `inner function!`
+    console.log(outer) //outer function!, it has access to outer because was declare on parent's scope
+  }
+
+  console.log(inner) // Error, inner is not defined, only inner function has accessibility to their variables
+}
+```
 ### Closures:
 
 Javascript allowed to declare functions within others, in a nested group of functions, the inner functions have access to the variables and other resources of their parent scope.
