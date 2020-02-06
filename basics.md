@@ -58,7 +58,8 @@ console.log(Math.min(...list)) // -3
 
 ### for of & for in
 
-- for of 
+- **for of** 
+
 Creates a loop over iterable objects(arrays, strings). Use a variable to do an operation on each iteration, variable may be declared with const, let, or var.
 
 ```javascript
@@ -82,7 +83,7 @@ for (const letter of word) {
 // "o"
 ```
 
-- for in
+- **for in**
 
 Use to iterate over the properties of an object, here variable is the key of the propert and object[key] is the property, in the next example keys are shirt, pants and shoes, an the property of clothes[shirt] is white.
 
