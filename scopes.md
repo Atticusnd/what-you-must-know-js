@@ -1,6 +1,6 @@
-##Scope: 
+## Scope: 
 
->Is the accessibility of variables, functions, and objects in some particular part of your code during runtime. In other words, scope determines the visibility of variables and other resources in areas of your code, javascript has two types of scopes.
+Is the accessibility of variables, functions, and objects in some particular part of your code during runtime. In other words, scope determines the visibility of variables and other resources in areas of your code, javascript has two types of scopes.
 
 ```
 var animal1 = 'lion'; //This variable is in GLOBAL scope
@@ -43,11 +43,11 @@ function getAnimals(){ //This function is on global scope
 
 getAnimals();
 ```
-###Lexical Scope:
+### Lexical Scope:
 
 Javascript allowed to declare functions within others, in a nested group of functions, the inner functions have access to the variables and other resources of their parent scope.
 
 
-###Closures:
+### Closures:
 
 Javascript allowed to declare functions within others, in a nested group of functions, the inner functions have access to the variables and other resources of their parent scope.
