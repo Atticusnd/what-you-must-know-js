@@ -1,0 +1,19 @@
+{
+  "name": "wtf-js",
+  "version": "1.0.0",
+  "description": "Summary about important things that I need to know and remember about JS",
+  "main": "testcode.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Atticusnd/what-you-must-know-js.git"
+  },
+  "author": "Adan Figueroa Jimenez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Atticusnd/what-you-must-know-js/issues"
+  },
+  "homepage": "https://github.com/Atticusnd/what-you-must-know-js#readme"
+}
