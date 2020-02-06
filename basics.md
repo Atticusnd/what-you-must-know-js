@@ -3,13 +3,13 @@
 JavaScript is a loosely typed or a dynamic language. Variables in JavaScript are not directly associated with any particular value type, and any variable can be assigned (and re-assigned) values of all types
 
 - Seven data types that are primitives:
- - Boolean
- - Null
- - Undefined
- - Number
- - BigInt
- - String
- - Symbol
+    - Boolean
+    - Null
+    - Undefined
+    - Number
+    - BigInt
+    - String
+    - Symbol
 - and Object
 
 ### var, let y const
