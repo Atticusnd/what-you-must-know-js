@@ -1,10 +1,24 @@
-## var, let y const
+### Data Types
 
-- _const:_ The identifier can't be changed or redeclared, is block scoped. (Not to be confused with immutable)
-- _let:_ The identifier can be changed or redeclared, is block scoped.
+JavaScript is a loosely typed or a dynamic language. Variables in JavaScript are not directly associated with any particular value type, and any variable can be assigned (and re-assigned) values of all types
+
+- Seven data types that are primitives:
+- - Boolean
+- - Null
+- - Undefined
+- - Number
+- - BigInt
+- - String
+- - Symbol
+- and Object
+
+### var, let y const
+
+- _const:_ The identifier can't be changed or re-declared, is block scoped. (Not to be confused with immutable)
+- _let:_ The identifier can be changed or re-declared, is block scoped.
 - _var:_ The variable may or may not be reassigned, and the variable may or may not be used for an entire function, or just for the purpose of a block or loop.
 
-## Difference between == and ===
+### Difference between == and ===
 
 - == Converts the operands to the same type before making the comparison.
 
@@ -27,3 +41,17 @@ It's for iterable objects to expand it into the list of arguments, with spread o
 - Concatenating or combining arrays
 - Using some math functions
 - Adding an item to a list
+
+```javascript
+//Combining arrays
+const vowels = ['a','i','u'];
+const consonants = ['w','t','d'];
+const letters = [...vowels,...consonants];
+console.log(letters); // ['a','i','u','w','t','d']
+
+//Math functions
+const list = [1, 2000, 0, -3,6]
+console.log(Math.min(list)) // NaN
+console.log(Math.min(...list)) // -3
+
+```
