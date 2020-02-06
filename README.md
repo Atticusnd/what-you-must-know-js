@@ -8,13 +8,19 @@ This content is created to help to understand and remember all concepts that are
 
 ## Sources
 
-This is the general list of sources that I used, but in any section you see it has the specific sources list
+This is the general list of sources that I used, but in any section you see it has the specific sources list.
 
 - [MDN](https://developer.mozilla.org/en-US/)
 - [FreeCodeCamp](https://www.freecodecamp.org/)
 - [CSS-Tricks](https://css-tricks.com/)
 - [Scotch](https://scotch.io/)
 - [Node JS](https://nodejs.org/en/docs/)
+
+## Disclaimer
+
+Some of the examples and definitions are taken from the sources and are not created by me because sometimes that are the clearest way to explain it.
+
+I'm not a native english speaker, so this notes are helping me to improve my technical vocabulary.
 
 
 
