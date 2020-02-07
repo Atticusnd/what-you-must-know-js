@@ -2,11 +2,13 @@
 
 This is a summary about the most popular functions for arrays.
 
-**Filter**
+### Filter
 
 This method creates a new array with all elements that fulfilled by the filter, filter is a callback, if it's better for you, you can declare the function outside. The elements that keep in the new array are those that returned true.
 
 ```javascript
+
+//Example with function declared in filter
 const fruits = ['banana', 'apple', 'pineapple', 'watermelon', 'berry', 'cherry'];
 
 const result = fruits.filter(element => element.includes('apple'));
@@ -15,7 +17,7 @@ console.log(result);
 
 //[ 'apple', 'pineapple' ]
 
-
+//Example with function outside filter
 const numbers = [12,4,5,86,43,26,7];
 
 function isPair(number){
