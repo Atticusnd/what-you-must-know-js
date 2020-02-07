@@ -85,7 +85,7 @@ for (const letter of word) {
 
 - **for in**
 
-Use to iterate over the properties of an object, here variable is the key of the propert and object[key] is the property, in the next example keys are shirt, pants and shoes, an the property of clothes[shirt] is white.
+Use to iterate over the properties of an object, here variable is the key of the property and object[key] is the property, in the next example keys are shirt, pants and shoes, an the property of clothes[shirt] is white.
 
 ```javascript
 const clothes = {

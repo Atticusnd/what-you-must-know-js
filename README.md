@@ -4,6 +4,7 @@ This content is created to help to understand and remember all concepts that are
 
 1. [Basics, ES](basics.md)
 2. [Scopes and closures](scopes.md)
+3. [Arrays](arrays.md)
 
 ## Sources
 
