@@ -16,7 +16,8 @@ const result = fruits.filter(element => element.includes('apple'));
 console.log(result);
 
 //[ 'apple', 'pineapple' ]
-
+```
+```javascript
 //Example with function outside filter
 const numbers = [12,4,5,86,43,26,7];
 
