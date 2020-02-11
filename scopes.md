@@ -2,6 +2,12 @@
 
 Is the accessibility of variables, functions, and objects in some particular part of your code during runtime. In other words, scope determines the visibility of variables and other resources in areas of your code, javascript has two types of scopes.
 
+
+
+**Global Scope:** There is only one global scope, If element is declared outside all functions or curly braces, it can be used anywhere in your code. In node js, global scope is different if you define a variable as global, module will be local to that module.
+
+**Local Scope:** Variables that are usable only in a specific part of your code. 
+
 ```javascript
 var animal1 = 'lion'; //This variable is in GLOBAL scope
 
@@ -14,13 +20,32 @@ function getAnimals(){ //This function is in GLOBAL scope
 getAnimals();
 ```
 
-**Global Scope:** There is only one global scope, If element is declared outside all functions or curly braces, it can be used anywhere in your code. In node js, global scope is different if you define a variable as global, module will be local to that module.
-
-**Local Scope:** Variables that are usable only in a specific part of your code. there are two kinds of local scope:
+Local scope has two kinds of local scope:
 
 - **Function Scope:** When you declare a variable in a function you can access this variable only within the function. Lives as long as your functions are called and executed.
 
+```javascript
+function myFunction(){
+    let number = 5;
+    var text = "test"
+    console.log(number); // 5 It's call inner in function
+}
+console.log(text); // 5 It's call inner in function
+//
+```
+
 - **Block Scope:** If you use curly braces ( {} ) in a condition (if, switch) or a loop (for, while), only if you declare a variable with let and const this variables will lives as long as the condition or loop is finished
+
+```javascript
+if(true){
+  let color = 'red';
+  console.log(`Getting inner block ${color} `); //Getting inner block red 
+}
+  console.log(`Getting outer block ${color} `); //ReferenceError: color is not defined
+
+```
+
+Example with everything that you read before.
 ```javascript
 var animal1 = 'tiger'; //This variable is on global scope, it doesn't matters if it's var, const or let
 
